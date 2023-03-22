@@ -1,0 +1,19 @@
+@media screen and (max-width: 750px) {
+  .card_outer_container {
+    margin: 20px;
+    border: 5px solid red;
+  }
+
+  .card_inner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 751px) {
+  .card_outer_container {
+    border: 5px solid blue;
+  }
+}

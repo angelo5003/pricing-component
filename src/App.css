@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,21 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+@media screen and (min-width: 751px) {
+  .app_container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .app_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }

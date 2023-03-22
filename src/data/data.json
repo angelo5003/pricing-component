@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Basic",
+    "monthly": 19.99,
+    "annualy": 199.99,
+    "storage": "500 GB storage",
+    "users": "2 Users allowed",
+    "upload": "Send up to 3 GB",
+    "learn": "Learn More"
+  },
+  {
+    "id": 2,
+    "title": "Professional",
+    "monthly": 24.99,
+    "annualy": 249.99,
+    "storage": "1 TB storage",
+    "users": "5 Users allowed",
+    "upload": "Send up to 10 GB",
+    "learn": "Learn More"
+  },
+
+  {
+    "id": 3,
+    "title": "Master",
+    "monthly": 39.99,
+    "annualy": 399.99,
+    "storage": "2 TB storage",
+    "users": "10 Users allowed",
+    "upload": "Send up to 20 GB",
+    "learn": "Learn More"
+  }
+]
