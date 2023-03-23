@@ -2,8 +2,9 @@
   .card_outer_container {
     margin: 10px;
     border: 5px solid red;
+    border-radius: 10px;
     width: 250px;
-    height: 300px;
+    height: 310px;
   }
 
   .card_inner_container {
@@ -27,6 +28,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  .card_list_item {
+    border-bottom: 2px solid red;
+    display: inline-block;
+    padding: 1px 3rem;
+    font-size: 15px;
   }
 
   .card_btn {
