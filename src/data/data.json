@@ -8,6 +8,8 @@
     "users": "2 Users allowed",
     "upload": "Send up to 3 GB",
     "learn": "Learn More",
+    "buttonBackgroundColor": "linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%) )",
+    "buttonColor": "hsl(240, 78%, 98%)",
     "backgroundColor": "hsl(240, 78%, 98%)",
     "cardItemColor": "hsl(232, 13%, 33%)"
   },
@@ -22,6 +24,8 @@
     "upload": "Send up to 10 GB",
     "learn": "Learn More",
     "backgroundColor": "linear-gradient(to bottom, hsl(236, 72%, 79%),hsl(237, 63%, 64%) )",
+    "buttonBackgroundColor": "hsl(240, 78%, 98%)",
+    "buttonColor": "hsl(237, 63%, 64%)",
     "cardItemColor": "hsl(240, 78%, 98%)"
   },
 
@@ -34,6 +38,8 @@
     "users": "10 Users allowed",
     "upload": "Send up to 20 GB",
     "learn": "Learn More",
+    "buttonBackgroundColor": "linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%) )",
+    "buttonColor": "hsl(240, 78%, 98%)",
     "backgroundColor": "hsl(240, 78%, 98%)",
     "cardItemColor": "hsl(232, 13%, 33%)"
   }

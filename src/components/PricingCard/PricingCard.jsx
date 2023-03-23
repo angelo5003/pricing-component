@@ -25,7 +25,15 @@ const PricingCard = ({ card }) => {
             {card.upload}
           </li>
         </ul>
-        <button className="card_btn">{card.learn}</button>
+        <button
+          className="card_btn"
+          style={{
+            background: card.buttonBackgroundColor,
+            color: card.buttonColor,
+          }}
+        >
+          {card.learn}
+        </button>
       </div>
     </article>
   );
