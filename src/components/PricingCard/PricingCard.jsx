@@ -12,7 +12,7 @@ const PricingCard = ({ card }) => {
           <li className="card_list_item">{card.users}</li>
           <li className="card_list_item">{card.upload}</li>
         </ul>
-        <button>{card.learn}</button>
+        <button className="card_btn">{card.learn}</button>
       </div>
     </article>
   );

@@ -4,11 +4,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app_container">
-      {data &&
-        data.map((card) => {
-          return <PricingCard key={card.id} card={card} />;
-        })}
+    <div className="test">
+      <div className="app_container">
+        {data &&
+          data.map((card) => {
+            return <PricingCard key={card.id} card={card} />;
+          })}
+      </div>
     </div>
   );
 }

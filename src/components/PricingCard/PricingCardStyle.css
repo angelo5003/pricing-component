@@ -1,7 +1,9 @@
 @media screen and (max-width: 750px) {
   .card_outer_container {
-    margin: 20px;
+    margin: 10px;
     border: 5px solid red;
+    width: 250px;
+    height: 300px;
   }
 
   .card_inner_container {
@@ -9,6 +11,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .card_title {
+    font-size: 20px;
+  }
+
+  .card_price {
+    font-size: 35px;
+  }
+
+  .card_list_container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card_btn {
+    width: 200px;
+    padding: 5px;
   }
 }
 
