@@ -1,6 +1,7 @@
 import PricingCard from "./components/PricingCard/PricingCard";
 import data from "./data/data.json";
 import "./App.css";
+import Switch from "./components/Switch/Switch";
 
 function App() {
   return (
@@ -8,11 +9,11 @@ function App() {
       <div className="app_container">
         <header className="app_header">
           <h1>Our Pricing</h1>
-          <button>Monthly</button>
+          <Switch />
         </header>
+
         {data &&
           data.map((card) => {
-            console.log(`data from:`, data);
             return <PricingCard key={card.id} card={card} />;
           })}
       </div>
