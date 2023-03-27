@@ -1,13 +1,17 @@
-import React, { useState } from "react";
 import "./Switch.css";
-const Switch = () => {
+
+const Switch = ({ toggled, setToggled }) => {
   return (
-    <div className="switch_outer_container">
-      <label className="switch_annual">Annual</label>
-      <input type={"checkbox"} className="input" />
+    <label className="switch_outer_container">
+      <label id="label_annual">Annual</label>
+      <input
+        type="checkbox"
+        // onChange={(event) => setToggled(event.target.checked)}
+        className="input"
+      />
       <span className="slider" />
-      <label className="switch_monthly">Monthly</label>
-    </div>
+      <label id="label_monthly">Monthly</label>
+    </label>
   );
 };
 

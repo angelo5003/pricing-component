@@ -1,0 +1,64 @@
+.switch_outer_container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#label_annual {
+  padding-left: 5px;
+}
+
+#label_monthly {
+  padding-right: 5px;
+}
+
+.input {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.input:checked + span {
+  background-color: rgb(182, 226, 66);
+}
+
+.input:checked + span::before {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.input:focus + span {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.input:focus:checked + span {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  border-radius: 21px;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
+}
+
+.slider:active::before {
+  width: 28px;
+}
+
+.slider {
+  display: flex;
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: rgb(17, 188, 216);
+  position: relative;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
