@@ -18,9 +18,8 @@
   top: -9999px;
 }
 
-.input:checked + span {
-  background-color: rgb(182, 226, 66);
-}
+/* .input:checked + span {
+} */
 
 .input:checked + span::before {
   left: calc(100% - 2px);
@@ -58,7 +57,7 @@
   width: 50px;
   height: 25px;
   border-radius: 100px;
-  background-color: rgb(17, 188, 216);
+  background: linear-gradient(to left, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   position: relative;
   transition: background-color 0.2s, box-shadow 0.2s;
 }

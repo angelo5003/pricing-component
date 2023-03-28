@@ -6,7 +6,8 @@ const Switch = ({ toggled, setToggled }) => {
       <label id="label_annual">Annual</label>
       <input
         type="checkbox"
-        // onChange={(event) => setToggled(event.target.checked)}
+        checked={toggled}
+        onChange={(event) => setToggled(event.target.checked)}
         className="input"
       />
       <span className="slider" />

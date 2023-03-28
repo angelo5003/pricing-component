@@ -1,7 +1,7 @@
 import React from "react";
 import "./PricingCardStyle.css";
 
-const PricingCard = ({ card }) => {
+const PricingCard = ({ card, toggled }) => {
   return (
     <article
       className="card_outer_container"
@@ -12,7 +12,7 @@ const PricingCard = ({ card }) => {
           {card.title}
         </p>
         <h1 className="card_price" style={{ color: card.titleColor }}>
-          &#36; {card.monthly}
+          &#36; {toggled ? card.monthly : card.annualy}
         </h1>
         <ul className="card_list_container">
           <li className="card_list_item" style={{ color: card.cardItemColor }}>
