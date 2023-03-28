@@ -4,14 +4,6 @@
   flex-direction: row;
 }
 
-#label_annual {
-  padding-left: 5px;
-}
-
-#label_monthly {
-  padding-right: 5px;
-}
-
 .input {
   position: absolute;
   left: -9999px;
@@ -60,4 +52,6 @@
   background: linear-gradient(to left, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   position: relative;
   transition: background-color 0.2s, box-shadow 0.2s;
+  margin-left: 10px;
+  margin-right: 10px;
 }

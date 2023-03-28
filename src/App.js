@@ -7,7 +7,6 @@ import Switch from "./components/Switch/Switch";
 function App() {
   const [toggled, setToggled] = useState(false);
 
-  console.log(`data from:`, toggled);
   return (
     <div>
       <div className="app_container">
