@@ -4,7 +4,7 @@ import "./PricingCardStyle.css";
 const PricingCard = ({ card, toggled }) => {
   return (
     <article
-      className="card_outer_container"
+      className={`${card.id === 2 ? "bigger-card" : "card_outer_container"}`}
       style={{ background: card.backgroundColor }}
     >
       <div className="card_inner_container">
